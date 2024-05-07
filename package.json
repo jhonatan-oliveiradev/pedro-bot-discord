@@ -1,0 +1,23 @@
+{
+  "name": "pedro-bot-discord",
+  "version": "1.0.0",
+  "description": "Bot de estudos de programação para discord",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --trace-warnings --watch src/index.js",
+    "commands": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "bot-discord",
+    "discord",
+    "studies",
+    "bot"
+  ],
+  "author": "https://www.github.com/jhonatan-oliveiradev",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5"
+  }
+}
